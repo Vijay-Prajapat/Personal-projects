@@ -1,15 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# #                                         Lets Grow More 
-#  
-# ##                           Virtual Internship Program - *Data Science* (Feb 2023)
-# 
-# #                                 Name - Vijay Prajapat
-# 
-# # 
-# 
-# ## Task 4 - Image to Pencil Sketch With Python¶
+# Image to Pencil Sketch With Python¶
 
 # ## 
 # ## Importing neccesaary Libraries / Packages
