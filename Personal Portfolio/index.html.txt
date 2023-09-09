@@ -1,0 +1,2029 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fontawesome.com/icons/browser?f=sharp&s=light&an=beat-fade">
+
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css ">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,200" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Arvo&family=Bubblegum+Sans&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Merienda:wght@600&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@400;600&family=Source+Code+Pro:wght@600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Arvo&family=Bubblegum+Sans&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Marcellus&family=Merienda:wght@600&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@400;600&family=Slabo+27px&family=Source+Code+Pro:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Archivo+Narrow:wght@500&family=Arvo&family=Bree+Serif&family=Bubblegum+Sans&family=Catamaran:wght@100&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fredoka+One&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Marcellus&family=Merienda:wght@600&family=News+Cycle&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@400;600&family=Slabo+27px&family=Source+Code+Pro:wght@600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Arvo&family=Bubblegum+Sans&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Merienda:wght@600&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@400;600&family=Slabo+27px&family=Source+Code+Pro:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Arvo&family=Bubblegum+Sans&family=Catamaran:wght@100&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Marcellus&family=Merienda:wght@600&family=News+Cycle&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@400;600&family=Slabo+27px&family=Source+Code+Pro:wght@600&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Allerta&family=Archivo+Narrow:wght@500&family=Arvo&family=Bree+Serif&family=Bubblegum+Sans&family=Catamaran:wght@100&family=Cinzel&family=Courier+Prime&family=Crete+Round&family=Fredoka+One&family=Fresca&family=IBM+Plex+Sans:wght@600&family=Kalam:wght@700&family=Karla:wght@600&family=Kaushan+Script&family=Lilita+One&family=Marcellus&family=Merienda:wght@600&family=News+Cycle&family=Pacifico&family=Patrick+Hand&family=Playfair+Display+SC:ital@1&family=Roboto+Slab&family=Rubik+Bubbles&family=Sansita&family=Signika+Negative:wght@40 0;600&family=Slabo+27px&family=Source+Code+Pro:wght@600&display=swap');
+
+
+    * {
+      margin: 0;
+      padding: 0;
+     
+      /* color: #edb5bf;*/
+      scroll-behavior: smooth;
+
+    }
+
+    body {
+      background:
+        /* #17252a;#222629#333033*/
+        #ffffff;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      padding-top: 10%;
+
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .image {
+      width: 300px;
+      height: 500px;
+      margin-top: 30%;
+      margin-left: 18%;
+    }
+
+    .name {
+      /*padding-top: 15%;
+      /*padding-left: 18%;*/
+
+      font-family: 'News Cycle', sans-serif;
+      color: #000000;
+      font-size: 25px;
+    }
+
+    .name h1 {
+       font-size: 0px;
+      font-family: 'Marcellus', serif;
+      
+
+    }
+
+    .name h2 {
+
+      font-family: 'Marcellus', serif;
+
+    }
+
+    #br {
+      color: #000000;
+      font-size: 42px;
+    }
+
+    .hb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+
+/* ------------------------------------------- Navigation Bar -------------------------------------------------*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    background: #ffffff;
+    font-family: 'poppins','sans-serif';
+    text-decoration: none;
+}
+.navbar.sticky{
+    padding: 30px 0;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.navbar .logo a{
+    /* color: #fff; */
+    font-family: 'ubuntu';
+    color: crimson;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar .logo a #amiksha{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none; 
+ 
+}
+.navbar .menu li a{
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    position: relative;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    
+   
+}
+.navbar .menu li a:hover{
+    color: crimson;
+   
+}
+.navbar .menu li a::after{  
+        content: '';
+        width: 0;
+        height: 3px;
+        background: crimson;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+        
+       
+}
+.navbar .menu li a:hover::after{
+        width: 100%;
+        text-decoration: none;
+      
+}
+
+/* Menu Button styling */
+.menu-btn{
+    color: #000000;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+}
+
+.scroll-up-btn{
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background: #c9002e;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 43px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* ------------------------------------------------ Home Page -------------------------------------------------*/
+
+.home{
+    display: flex;
+    background-color: #ffffff;
+    height: 100vh;
+    color: #000000;
+    min-height: 500px;
+    font-family: 'poppins' ,'sans-serif';  
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #222;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.home .home-content a:hover{
+    color: crimson;
+    /* background: rgb(42, 42, 42); */
+    background: none; 
+    border: 2 px solid #222;  
+}
+/* --------------- Marque --------------------*/
+/* .marq
+{  margin-top: 5%;
+  height: 40px;
+  font-size: 25px; 
+
+
+}
+.main
+{    column-gap: 2%;
+    display: flex;
+} */
+
+/*--------------------------  All Similar-Content-Styling-Code ( Headings ) -----------------------------*/
+
+
+/*  --------------------------------------- Responsive media query -------------------------------------- */
+
+@media (max-width: 1300px){
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+/* ------------------------------------------ 1140px -------------------------------------------------- */
+
+@media (max-width: 1140px){
+    .home .max-width{
+        margin-left: 0px;
+    }
+
+    .about .about-content .col-left img{
+        height: 300px; 
+        /* 350px */
+        width: 200px;
+        /* 300px */
+    }
+}
+
+@media (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+/* --------------------------------------- 974px --------------------------------------------------- */
+
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+        color: #000000;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+        color: white;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #080808;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+        color: #c5c3c3;
+    }
+    
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .max-width{
+        max-width: 800px;
+    }
+    .about .about-content .col{
+        width: 50%;
+    }
+    .about .about-content .col-left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .col-right{
+        flex: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        /* margin was not given , given by me */
+    }
+    .skills .skills-content .column{
+
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px){ 
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+       
+      
+    }
+
+}
+
+@media (max-width: 500px){
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+        padding: 8px 20px;
+        border: 2px solid #222;
+    }
+
+}
+
+/* ---------------------------------------------- End --------------------------------------------*/
+
+
+
+
+
+
+
+
+
+    .about {
+      justify-content: center;
+      text-align: center;
+
+
+    }
+
+    #opacity {
+      text-align: center;
+      justify-content: center;
+      opacity: 0.7;
+      color: #222222;
+      font-size: 130px;
+      font-family: 'Catamaran', sans-serif;
+      filter: drop-shadow(0px 0px 10px  rgb(66, 66, 66) );
+      
+    }
+
+    .ih2 {
+     font-family: 'Catamaran', sans-serif;
+      margin-top: -4%;
+     
+      font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 50px;
+      text-align: center;
+    
+    
+      position: relative;
+      color: transparent;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.6);
+      filter: drop-shadow(0px 0px 10px  rgb(170, 1, 35) );
+      
+
+    }
+
+
+
+  
+
+
+
+
+
+
+
+
+    .parant {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 5%;
+      flex-wrap: wrap;
+
+    }
+
+    .img {
+      color: rgb(0, 0, 0);
+    }
+
+    .img img {
+      width: 260px;
+      height: 330px;
+      border-radius: 0px;
+      border-radius: 10% 10% 50% 70%;
+      border: 1px solid rgb(94, 93, 93);
+      filter: drop-shadow(0px 0px 20px #8f8d8e);
+    }
+
+    .child {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 630px;
+      /* background-color:
+        /*#2b7a76;
+        #383838;*/
+      color: rgb(0, 0, 0);
+      height: 450px;
+      /*  box-shadow: 1px 1px 4px rgb(141, 135, 135);*/
+      background-color: #ffffff;
+      font-family: 'Marcellus', serif;
+      border-radius: 0px;
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    /*.photo
+   {
+    margin-top: 5%;
+    margin-left: 5%;
+   }
+   img
+   {
+    width: 300px;
+    height: 250px;
+   }*/
+
+
+    .paragraph {
+      font-size: 30px;
+      margin: 5% 0% 0% 2%;
+      width: 600px;
+
+    }
+
+    .b {
+      color: #c9002e;
+      font-family: 'Marcellus', serif;
+      font-weight: 600;
+    }
+
+    .paragraph .para1 {
+      padding: 1%;
+      font-size: 35px;
+      font-family: 'Catamaran', sans-serif;
+      color: #000000;
+
+    }
+
+    .paragraph .para2 {
+      padding-right: 10%;
+    
+      text-align: justify;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+
+
+    .btn-re {
+      font-family: 'Catamaran', sans-serif;
+      font-size: 25px;
+    
+      margin-top: 0%;
+      text-align: center;
+      background-color: #222222;
+      cursor: pointer;
+    
+      padding: 5px 25px 5px 25px;
+    
+      margin-left: 3%;
+      border-radius: 10px;
+      transition: all .3s ease;
+      text-decoration: none;
+      color: white;
+    }
+
+
+    .btn-re:hover {
+      cursor: pointer;
+     background: none;
+     border: solid 2px #030303;
+  color: crimson;
+  font-weight: 1000;
+
+    }
+
+    @media(max-width:600px) {
+      .child {
+
+        width: 350px;
+        min-height: 553px;
+
+      }
+    }
+
+
+   
+
+    .accom {
+      /*width: 600px;
+      height: 300px;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        column-gap: 30px;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+
+
+
+
+    .skil1 {
+
+      width: 300px;
+      color: #222222;
+      /* font-family: 'Fredoka One', cursive;*/
+      font-family: 'Catamaran', sans-serif;
+      font-size: 13px;
+
+    }
+
+
+     
+     
+
+    .skil1 li {
+      list-style: none;
+     
+      margin-bottom: 10%;
+
+    }
+
+    .skil1 p {
+      margin-left: 92%;
+      font-size: 18px;
+      font-weight: 1000;
+      font-family: 'Catamaran', sans-serif;
+    }
+
+
+
+
+    .bar {
+      background-color: #ffffff;
+      display: block;
+      height: 8px;
+      border: 1px solid rgba(0, 0, 0, 0, 3);
+      border-radius: 3px;
+      overflow: hidden;
+      /*box-shadow: 5px 5px 20px #3a3839;*/
+      filter: drop-shadow(0px 0px 10px  rgb(0, 0, 0) );
+      
+
+    }
+
+    .bar span {
+      height: 8px;
+      float: left;
+      background: rgb(41, 40, 40);
+
+    }
+
+    .html {
+
+      width: 90%;
+      animation: html 10s;
+    }
+
+    .css {
+      width: 70%;
+      animation: css 10s;
+    }
+
+    .javascript {
+      width: 40%;
+      animation: javascript 10s;
+    }
+
+    .c {
+      width: 70%;
+      animation: c 10s;
+
+    }
+
+    .cpp {
+      width: 70%;
+      animation: cpp 10s;
+    }
+
+    .python {
+      width: 40%;
+      animation: python 10s;
+    }
+
+    @keyframes html {
+      0% {
+        width: 0%;
+
+      }
+
+      100% {
+        width: 90%;
+      }
+    }
+
+    @keyframes css {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 70%;
+      }
+    }
+
+    @keyframes javascript {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 40%;
+      }
+    }
+
+    @keyframes c {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 70%;
+      }
+    }
+
+    @keyframes cpp {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 70%;
+      }
+    }
+
+    @keyframes python {
+      0% {
+        width: 0%;
+      }
+
+      100% {
+        width: 40%;
+      }
+    }
+
+    .sampark {
+      /*  margin: 0% 0% 10% 10%;*/
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      font-family: 'News Cycle', sans-serif;
+      color: white;
+      /*      padding: 5%;*/
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .address {
+
+      background-color: #faf9f8;
+      opacity: 1;
+      height: 329px;
+      width: 300px;
+      border-radius: 0px;
+      /* box-shadow: 5px 5px 5px rgb(126, 119, 119);*/
+      padding: 3% 0% 0% 2%;
+      margin-bottom: 0%;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+      border: 1px solid #c5c3c3;
+      color: #222222;
+      font-weight: 1000;
+    }
+
+    .address h3 {
+      color: #000;
+      font-family: 'Patrick Hand', cursive;
+    }
+
+    .ankadd {
+      color: #222222;
+      text-decoration: none;
+
+
+    }
+
+    .ankadd:hover {
+      color: #c9002e;
+      -webkit-transform: scale(2.5);
+      transform: scale(2.5);
+
+    }
+
+    .call {
+      display: flex;
+      margin: 8px;
+
+    }
+
+    .fa-phone {
+      opacity: 1;
+      color: white;
+      background-color: #222;
+      width: 27px;
+      height: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-right: 20px;
+      margin-top: 8px;
+    }
+
+    .fa-phone:hover {
+      color: #c9002e;
+    }
+
+    .fa-envelope:hover {
+      color: #c9002e;
+    }
+
+    .fa-github:hover {
+      color: #c9002e;
+    }
+
+    .fa-linkedin:hover {
+      color: #c9002e;
+    }
+
+
+    .mail {
+      display: flex;
+      margin: 10px;
+
+    }
+
+    .fa-envelope {
+      opacity: 1;
+      color: white;
+      background-color: #222;
+      width: 27px;
+      height: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-right: 20px;
+      margin-top: 8px;
+    }
+
+    .github {
+      display: flex;
+      margin: 11px;
+
+    }
+
+    .fa-github {
+      opacity: 1;
+      color: white;
+      background-color: #222;
+      width: 27px;
+      height: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-right: 20px;
+      margin-top: 11px;
+    }
+
+    .linkedin {
+      display: flex;
+      margin: 10px;
+
+    }
+
+    .fa-linkedin {
+      opacity: 1;
+      color: white;
+      background-color: #222;
+      width: 27px;
+      height: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-right: 20px;
+      margin-top: 11px;
+    }
+
+
+
+
+
+
+
+
+    .form {
+      margin: 5%;
+
+    }
+
+    .form h1 {
+     
+      text-align: center;
+      font-size: 25px;
+      font-family:  sans-serif;
+      color: #000;
+   font-weight:1000;
+    }
+    .form_lets
+    {
+      color: #e0869b;
+    }
+
+    form input {
+      background-color: #faf9f8;
+      
+      color: #222222;
+      font-size: 14px;
+      width: 305px;
+      height: 50px;
+      text-decoration: none;
+      opacity: 1;
+      border: none;
+
+      padding-left: 5%;
+      outline: none;
+      resize: none;
+      border: 1px solid #c5c3c3;
+    }
+
+    input::placeholder {
+      bottom: none;
+      color: #000000;
+
+
+    }
+
+    input:placeholder-shown {
+      font-size: 15px;
+      /*  padding-left: 5%;*/
+      color: #000;
+      outline: none;
+
+    }
+
+    input:hover {
+      border-color: #cc071e;
+      box-shadow: 0 4px 18px 0 #222222;
+    }
+
+
+    textarea {
+      background-color: #faf9f8;
+      color: #222222;
+      font-size: 15px;
+      width: 318px;
+      height: 150px;
+      text-decoration: none;
+     
+      border: none;
+
+      outline: none;
+      resize: none;
+      border: 1px solid #c5c3c3;
+    }
+
+    textarea::placeholder {
+      font-size: 17px;
+      padding-left: 5%;
+      color: #000000;
+   
+    }
+
+
+    textarea:hover {
+      border-color: #cc071e;
+      box-shadow: 0 4px 18px 0 #222222;
+    }
+
+
+
+
+
+    .submit {
+      margin-left: 10%;
+      border: none;
+      width: 130px;
+      height: 40px;
+      background:
+        /* #76dad5;*/
+        #222222;
+border-radius: 6px;
+      color: floralwhite;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 400;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+      font-family: 'poppins', 'sans-serif';
+    }
+
+    button:hover {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      /* opacity: 0.5;*/
+      /* transform: translateY(-1px);*/
+
+    }
+
+
+
+    .marque {
+
+      height: 30px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+
+    }
+
+    #msg {
+      color: #338125;
+      margin-top: 3px;
+      display: block;
+      margin-left: 13%;
+    }
+
+    .foot {
+      background-color: #222222;
+      width: 100%;
+      height: 50px;
+      color: #faf9f8;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 00;
+      font-family: 'poppins', 'sans-serif';
+      font-size: 20px;
+    }
+
+    .foot-name {
+      color: #c9002e;
+    }
+  </style>
+</head>
+
+<body>
+     
+  <div class="scroll-up-btn">
+    <i class="fa-solid fa-angle-up"></i>
+</div>
+
+<nav class="navbar">
+<div class="max-width">
+    <div class="name_text">   <span class="text">&nbsp;Vijay&nbsp;</span>
+      <span class="hover-text">&nbsp;Vijay&nbsp;</span>   </div>
+     
+    <ul class="menu">
+        <li class="list"><a href="#home" class="menu-btn">Home</a></li>
+        <li class="list"><a href="#ab" class="menu-btn">About</a></li>
+        <li class="list"><a href="#educ" class="menu-btn">Qualification</a></li>
+        <li class="list"><a href="#skill" class="menu-btn">Skills</a></li>
+        <li class="list"><a href="#proje" class="menu-btn">Project</a></li>
+        <li class="list"><a href="#conc" class="menu-btn">Contact</a></li>
+    </ul>
+    <div class="menu-btn">
+    <i class="fas fa-bars"></i>
+</div>
+</nav>
+
+<!-- ------------------------------------------ Home Page ------------------------------------------------->
+
+
+  <div class="image_front">
+    
+    <img src="IMG_20230207_115207-01 (2).jpeg" alt="">
+
+  </div>
+
+
+
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">Hello , My Name is</div>
+            <div class="text-2">Vijay Prajapat</div>
+             <!-- <div class="main"> -->
+            <div class="text-3">And I am a 
+                <span class="typing"></span>
+            </div>
+            <!-- <div>
+             <marquee behavior="alternate" direction="down" scrollamount="3" class="marq">
+                Web Developer <br>
+                DSA Learner <br> 
+                Data Science Admirer <br> 
+                Programmer  <br>
+             </marquee> </div> -->
+            <a href="#conc">Contact Me</a>
+        </div>
+        </div>
+    </div>
+</section>
+  
+  <br><br>
+
+
+    <div class="about" id="ab"> <br>
+      <h1 id="opacity"> ABOUT ME </h1>
+      <h2 class="ih2"> Know me More </h2>
+    </div>
+    <br><br>
+    <div class="parant">
+      <div class="img" data-aos="fade-in">
+        <img src="IMG_20230207_115207-01 (2).jpeg" alt="">
+        <!-- <img src="IMG_20230207_115207-01.jpeg" alt="">-->
+      </div>
+      <div class="child" data-aos="fade-in">
+
+        <div class="paragraph">
+          <P class="para1"> I'm <span class="b">Vijay Prajapat , <br></span> <span class="typing-2"></span>
+          </P>
+          <P class="para2"> Pursuing Bechlor's Of Technolgy In The Field Of Computer Science From Indore Institute Of
+            Science And Technology. I am Eager To Learn About New Things .I Have Chosen To Study Computer Science
+            Because
+            i
+            Am Fascinated by How Computer Work and I spend Most Of My Spare Time Designing Programs And Web Pages
+            Because
+            I
+            enjoy Problem Solving And Logical Thinking... <br> </P>
+
+          <div ><a href="Resume Sanskar 2022.pdf" download class="btn-re"> Resume <i
+                class="uil uil-import"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <br><br><br>
+
+
+
+
+    <div class="education" id="educ">
+
+      <h1 id="opacity"> Qualification</h1>
+      <h2 class="ih2">Personal Journey </h2>
+      <section class="qualification section">
+        <h2 class="section__title"></h2>
+        <span class="section__subtitle"></span>
+        <div class="qualification__container container"> <br>
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target='#education'>
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span class="headings "> Education </span>
+            </div>
+            <div class="qualification__button button--flex " data-target='#work'>
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span class="headings"> Experience</span>
+            </div>
+          </div>
+
+          <br><br>
+
+          <div class="qualification__sections" data-aos="fade-in">
+            <!--========================Qualification content 1==================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+              <!--========================Qualification 1==================-->
+              <div class="qualification__data">
+                <div class="computer">
+                  <h3 class="qualification__title">Computer Science</h3>
+                  <span class="qualification__subtitle">Inodre-Institute</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020-2024
+                  </div>
+                </div>
+                <div>
+                  <br>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line-one"></span>
+
+                </div>
+              </div>
+              <br><br> <br> <br>
+              <!--========================Qualification 2==================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line-two "></span>
+                </div>
+                <div class="higher">
+                  <h3 class="qualification__title">Higher Secondary [85%]</h3>
+                  <span class="qualification__subtitle">Talent Higher Secondary </span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-2019
+                  </div>
+                </div>
+
+              </div>
+              <br><br><br>
+              <!--========================Qualification 3==================-->
+              <div class="qualification__data">
+                <div class="computer">
+                  <h3 class="qualification__title">Senior Secondary[80%]</h3>
+                  <span class="qualification__subtitle">Talent Higher Secondary</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016-2017
+                  </div>
+                </div>
+                <div>
+
+                  <span class="qualification__rounder"></span>
+                  <!--- <span class="qualification__line"></span> -->
+
+                </div>
+              </div>
+              <br><br> <br> <br>
+            </div>
+
+            <!--========================Qualification content 2==================-->
+
+
+
+            <div class="qualification__content" data-content id="work">
+
+
+
+
+              <!--========================Qualification 1==================--> <br>
+              <div class="qualification__data">
+                <div class="computer">
+                  <h3 class="qualification__title">Data-Science Intern</h3>
+                  <span class="qualification__subtitle"> Lets Grow More</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    feb'2023
+                  </div>
+                </div>
+                <div>
+
+
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line1"></span>
+
+                </div>
+              </div> <br><br><br>
+              <!--========================Qualification 2==================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line2"></span>
+                </div>
+                <div class="higher">
+                  <h3 class="qualification__title">Web Development</h3>
+                  <span class="qualification__subtitle">Oasis Infobyte</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    feb'2023
+                  </div>
+                </div>
+
+              </div> <br><br><br>
+
+              <!--========================Qualification 3==================
+              <div class="qualification__data">
+                <div class="computer">
+                  <h3 class="qualification__title">Web Development</h3>
+                  <span class="qualification__subtitle">Lets Grow More</span>
+                  <div class="qualification__calender">
+                    <i class="uil uil-calendar-alt"></i>
+                    Feb'2023
+                  </div>
+                </div>
+                <div>
+
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line3"></span>
+
+                </div>
+              </div>
+              <br><br><br>
+              ==================-->
+
+
+
+
+            </div>
+
+          </div>
+      </section>
+
+
+
+
+
+
+
+    </div> <br><br>
+
+
+
+    <div class="skills" id="skill"data-aos="fade-in">
+      <h1 id="opacity"> Skills</h1>
+      <h2 class="ih2">Things that I'm good at</h2>
+
+
+      <div class="accom" data-aos="fade-in">
+
+
+        <div class="skil1">
+
+          <li>
+            <h3> HTML  </h3>
+            <p> 90%</p> <span class="bar">  <span class="html"> </span></span>
+          </li>
+          <li>
+            <h3> CSS </h3>
+            <p>70% </p><span class="bar"> <span class="css"> </span></span>
+          </li>
+
+          <li>
+            <h3> JAVASCRIPT</h3>
+            <p>40%</p><span class="bar"> <span class="javascript"> </span></span>
+          </li>
+
+        </div>
+
+
+        <div class="skil1">
+          <li>
+            <h3> C</h3>
+            <p>70%</p><span class="bar"> <span class="c"> </span></span>
+          </li>
+          <li>
+            <h3> C++</h3>
+            <p>70%</p><span class="bar"> <span class="cpp"> </span></span>
+          </li>
+          <li>
+            <h3> PYTHON</h3>
+            <p>40%</p><span class="bar"> <span class="python"> </span></span>
+          </li>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  
+  
+  <br><br><br><br><br>
+  <br><br>
+
+
+    <div class="prj" id="proje">
+      <h1 id="opacity"> Projects</h1>
+      <h2 class="ih2"> About MY Work </h2> <br><br>
+    </div>
+
+    <!--=====================Project=================================-->
+    <section class="skills section" id="skills"   data-aos="fade-in">
+
+      <h2 class="section__title"></h2>
+      <span class="section__subtitle"></span>
+
+      <div class="skills__container container grid">
+
+
+
+        <h1 class="h1"> Academic Projects</h1>
+
+        <br><br> <br>
+
+        <div class="internship__bassed">
+
+          <div class="a1">
+
+            <!--=====================project 1=================================-->
+            <div class="skills__content skills__open">
+
+              <div class="skills__header">
+                <!--<i class="uil uil-brackets-curly skills__icon"></i>-->
+                <i class="uil uil-window skills__icon "> </i>
+
+                <div>
+                  <h1 class="skills__title"> Web Development
+                    <span class="skills__subtitle "> ( Internship )
+                      At Oasis-Infobyte</span>
+                  </h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+
+              </div>
+              <div class="skills__list grid">
+                <div class="tech1">
+                  <div class="list">
+                    <h1 id="task_h1">Tasks</h1>
+                    <li> To-Do Web App</li>
+                    <li> Tibute Page</li>
+                    <li> Calculator</li>
+                  </div>
+                  <div class="skills-a">
+                    <a href="https://github.com/Vijay-Prajapat/OIB-SIP" class="an1" >Explore</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+
+          <div class="a2">
+
+            <!--=====================projects 2=================================-->
+            <div class="skills__content skills__close">
+
+              <div class="skills__header">
+                <span class="material-symbols-outlined skills__icon1">
+                  psychology
+                </span>
+
+                <div>
+                  <h1 class="skills__title">Data Science <br>
+                    <span class="skills__subtitle"> ( Internship )
+                      At LGM VIP</span>
+                  </h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+
+              </div>
+              <div class="skills__list grid">
+
+                <div class="tech1">
+                  <h1>Tasks</h1>
+
+                  <li> Music Recommandation</li>
+                  <li>Stock Market Prediction</li>
+                  <li> Iris folwer Classification</li>
+
+                  <div class="skills-a">
+                    <a href="https://github.com/Vijay-Prajapat/LGM-VIP"  class="an1">Explore</a>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="a3">
+            <!--=====================project 3=================================-->
+            <div class="skills__content skills__close">
+
+              <div class="skills__header">
+
+                <i class='bi bi-bag-check-fill skills__icon'></i>
+                <div>
+                  <h1 class="skills__title">Institute Project <br>
+                    <span class="skills__subtitle">( Minor ) At IIST</span>
+                  </h1>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+
+              </div>
+              <div class="skills__list grid">
+
+                <div class="tech1">
+                  <h1 class="trend-h1">Trend Chart Monitoring System</h1>
+                  <p> A System Which Monitors Data And Produces Trend Graphs On The Screen .
+
+                  </p>
+                  <div class="skills-a">
+                    <a href=""class="an1">Explore</a>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <h1 class="h11"  data-aos="fade-in"   >Personal Projects</h1> <br><br>
+
+<!--
+
+    <div class="final_cards">
+
+
+      <div class="wrapper">
+        <div class="card">
+          <div class="poster"><img src="tic tak game.jpg" alt="Location Unknown"></div>
+          <div class="details">
+            <h1>Tic Tac Toe </h1>
+
+
+            <p class="desc">
+              GAME 
+            </p>
+
+            <div class="button">
+              <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Tic%20Tac%20Toe"> View</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="card">
+          <div class="poster"><img src="snake water game.jpeg" alt="Location Unknown"></div>
+          <div class="details">
+            <h1 class="h1_li">Snake water <br>
+               Gun </h1>
+           
+
+            <p class="desc">
+              GAME 
+            </p>
+
+            <div class="button">
+              <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Snake%20Water%20Gun%20Game"> View</a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+        <div class="card">
+          <div class="poster"><img src="gussing game.jpg" alt="Location Unknown"></div>
+          <div class="details">
+            <h1 class="h1_li">Perfect <br>Guessing </h1>
+
+
+            <p class="desc">
+              GAME
+            </p>
+
+            <div class="button">
+              <a href=""> View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="poster"><img src="pencil-image.jpg" alt="Location Unknown"></div>
+          <div class="details">
+            <h1 class="h1_li">Image to <br>Pencil-Sketch</h1>
+
+
+            <p class="desc">
+              PROJECT 
+            </p>
+
+            <div class="button">
+              <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Image%20to%20pencil%20sketch"> View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="poster"><img src="snake game.jpg" alt="Location Unknown"></div>
+          <div class="details">
+            <h1>Snake </h1>
+
+
+            <p class="desc">
+              GAME
+            </p>
+
+            <div class="button">
+              <a href=""> View</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="poster"><img src="temp con.jpg" alt="Location Unknown"></div>
+          <div class="details">
+
+            <h1 class="h1_li">Temerature Convertor</h1>
+
+
+            <p class="desc">
+              WEB-PAGE 
+            </p>
+
+            <div class="button">
+              <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Temperature%20Convertor"> View</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    
+  </div>
+-->
+
+
+
+<section class=" academic_cards"  data-aos="fade-in">
+  <!--card 1-->
+      <div class="card">
+       
+        <img src="Tic-Tac-Toe-Cartoon-200 (1).png"/>
+        <h2>TIC TAC TOE</h2>
+        <h3>GAME</h3>
+        <ul>
+          <li>HTML , CSS</li>
+          <li>JavaScript</li>
+    
+         
+        </ul>
+    <br>
+        <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Tic%20Tac%20Toe" class="card_a"> Explore</a>
+          
+        <div>
+       
+    
+     </div>
+      </div>
+  
+  
+  
+  
+       
+      <!--card 1-->
+      <div class="card">
+       
+        <img src="portfolio-removebg-preview.png" />
+        <h2>PORTFOLIO</h2>
+        <h3>WEBSITE</h3>
+        <ul class="ul_special">
+  
+          <li>HTML , CSS</li>
+          <li>JavaScript</li>        
+        </ul>
+    <br>
+        <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Snake%20Water%20Gun%20Game" class="card_a" > Explore</a>    
+  
+        <div>
+       
+    
+     </div>
+      </div>
+  
+  
+      <!--card 1-->
+      <div class="card">
+       
+        <img src="png-clipart-pencil-drawing-cartoon-creative-cute-cartoon-kids-pencil-hand-removebg-preview (1).png" />
+        <h2>PENCIL-SKETCH</h2>
+        <h3>PROJECT</h3>
+        <ul>
+          <li>PYTHON   <br>LANGUAGE </li>
+        </ul>
+  <br>
+        <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Image%20to%20pencil%20sketch" class="card_a"  > Explore</a>
+        <div>
+       
+    
+     </div>
+      </div>
+  
+  
+  
+      <!--card 1-->
+      <div class="card">
+       
+        <img src="perfect_guess-removebg-preview.png" />
+        <h2>PERFECT GUSSING </h2>
+        <h3>GAME</h3>
+        <ul>
+          <li>PYTHON   <br>LANGUAGE </li>
+        </ul>
+        <br>
+         <a href=""  class="card_a"  > Explore</a>
+        <div>
+       
+    
+     </div>
+      </div>
+  
+  
+      <!--card 1-->
+      <div class="card">
+       
+        <img src="tc-removebg-preview111-removebg-preview.png" />
+        <h2>TEMP-CONVERTOR</h2>
+        <h3>WEBSITE</h3>
+        <ul>
+          <li>HTML , CSS</li>
+          <li>JavaScript</li>
+        </ul>
+    <br>
+        <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Temperature%20Convertor" class="card_a"  > Explore</a>
+        <div>
+       
+    
+     </div>
+      </div>
+  
+  
+  
+         <!--card 1-->
+         <div class="card">
+       
+          <img src="calnder-removebg-preview (2).png" />
+          <h2>CALENDER</h2>
+          <h3>PROJECT</h3>
+          <ul>
+            <li>C <br> LANGUAGE</li>
+          </ul>
+      <br>
+          <a href="https://github.com/Vijay-Prajapat/Personal-projects/tree/main/Calander" class="card_a" > Explore</a>
+          <div>
+         
+      
+       </div>
+        </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+  
+  
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+      <div class="skills" id="skill">
+        <h1 id="opacity"> SKILLS</h1>
+        <h2 class="ih2"><u> Technical Level </u></h2>
+
+
+        <div class="accom" data-aos="fade-in">
+
+
+          <div class="skil1">
+
+            <li>
+              <h3> HTML  </h3>
+              <p> 90%</p> <span class="bar"> </P> <span class="html"> </span></span>
+            </li>
+            <li>
+              <h3> CSS </h3>
+              <p>70% </p><span class="bar"> <span class="css"> </span></span>
+            </li>
+
+            <li>
+              <h3> JAVASCRIPT</h3>
+              <p>40%</p><span class="bar"> <span class="javascript"> </span></span>
+            </li>
+
+          </div>
+
+
+          <div class="skil1">
+            <li>
+              <h3> C</h3>
+              <p>70%</p><span class="bar"> <span class="c"> </span></span>
+            </li>
+            <li>
+              <h3> C++</h3>
+              <p>70%</p><span class="bar"> <span class="cpp"> </span></span>
+            </li>
+            <li>
+              <h3> PYTHON</h3>
+              <p>40%</p><span class="bar"> <span class="python"> </span></span>
+            </li>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    -->
+
+      <div class="contact" id="conc">
+        <h1 id="opacity"> Contact</h1>
+        <h2 class="ih2"> Get in Touch</h2> <br>
+        <div class="sampark" data-aos="fade-in">
+          <div class="address">
+
+
+            <div class="call">
+
+              <span class="fa fa-phone" style="font-size:17px"> </span>
+              <div class="phone">
+                <h3>Phone </h3> 9399644892
+              </div>
+            </div>
+
+            <div class="mail">
+              <span class="fa fa-envelope" style="font-size:15px"> </span>
+              <div class="mel">
+                <h3>Mail</h3> <a href=" sanskarprajapt2002@gmail.com " class="ankadd"> sanskarprajapt2002@gmail.com </a>
+              </div>
+            </div>
+
+            <div class="github">
+              <span class="fa fa-github" style="font-size:18px"> </span>
+              <div class="github1">
+                <h3>Github</h3><a href="https://github.com/Vijay-Prajapat" class="ankadd">
+                  https://github.com/Vijay-Prajapat </a>
+              </div>
+            </div>
+            <div class="linkedin">
+              <span class="fa fa-linkedin" style="font-size:15px"> </span>
+              <div class="github1">
+                <h3>Linkedin</h3> <a href="https://www.linkedin.com/in/vijay-prajapat-9244b5228"
+                  class="ankadd">https://linkedin.com/vijay-prajapat </a>
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+
+          <div class="form">
+            <h1>Let's <span class="form_lets"> talk </span>.</h1> <br>
+            <form name="google-sheet">
+
+              <input type="text" name="Name" placeholder="Your Name" required> <br> <br>
+              <input type="email" name="Email" placeholder="Your Email" required> <br> <br>
+              <textarea name="Message" row="6" placeholder="Your Message"></textarea> <br> <br>
+              <button type="submit" class="submit" name="submit">Submit</button>
+              <span id="msg"> </span>
+            </form>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <pre>
+
+
+
+ </pre>
+
+
+
+
+  <footer class="foot">
+    <span>Copyright <i class="uil uil-copyright"></i> <a class="foot-name">Vijay Prajapat.</a> </span>
+
+  </footer>
+
+
+
+
+
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyBILFAwUcMUP5MWNu5UZPU2bLgqD61cBFzxZdpTSCSrwU4BxshLrxTZ5HrXkeVa2pj/exec'
+    const form = document.forms['google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message Sent Succesfully !"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      Offset: 3000,
+      duration: 3000,
+
+    });
+
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
